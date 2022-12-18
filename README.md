@@ -16,7 +16,7 @@ Power Ecosystem the Tea Ceremony
 |CPU        |2 cores / 4 Cores                   |
 |RAM        |2 GB / 8 FB                         |
 |Penyimpanan|20 GB HDD                           |
-|Koneksi    |50 mbps upload & bandwidth download |
+|Koneksi    |20 mbps upload & bandwidth download |
 
 
 # STEP 1 (Follow & buat wallet)
@@ -35,10 +35,6 @@ Power Ecosystem the Tea Ceremony
 `Contoh Address: AA100000172805325404` 
 
 # STEP 2 (Setup join waitlist)
-
-
-
-
 
 ## Rules
 
