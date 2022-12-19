@@ -14,7 +14,7 @@ Power Ecosystem the Tea Ceremony
 |-----------|---------------------               |
 |  sistem   |  Ubuntu 18.04 atau lebih tinggi    |
 |CPU        |2 cores / 4 Cores                   |
-|RAM        |2 GB / 8 FB                         |
+|RAM        |2 GB / 8 GB                         |
 |Penyimpanan|20 GB HDD                           |
 |Koneksi    |20 mbps upload & bandwidth download |
 
@@ -161,12 +161,14 @@ source ~/.bashrc
 ```
 ./teaclient -n nickname aaaaa.bbbbb
 ```
+setelah memasukan command ini tunggu hingga semua slot penuh dan lanjut next step
 - **Nickname** : NAMA node anda **BEBAS** Menggunakan nama apa saja!
 - **aaaaa** : adalah token kode dari **[Channel Telegram](https://t.me/thepowerio)** yang dibagikan team thepower 
 - **bbbbb** : adalah token kode anda dari BOT TELEGRAM
 
 **Contoh** `./teaclient -n  ARTteam 12A41AA548A5.22E9AE7333D64`
 - contoh kode di atas tidak bisa dipake (kode random)
+- Untuk mendapatkan token **aaaaa** Pantau Channel thepowerio
 
 ### Next set config 
 
@@ -224,7 +226,17 @@ curl http://your_node.example.com:1080/api/node/status | jq
 - Klik `Whats Next`
 - Klik `Done` dan 
 - Paste Domain status `http://your_node.example.com:1800/api/node/status`
+- menunggu hingga **height 1** 
+- BOT otomatis verifikasi NODE
 - Done
+
+#### check status NODE
+
+- Telegram BOT klik Check your Status
+- Buka URL [dashboard](https://zabbix.thepower.io/zabbix.php?action=dashboard.view)
+- di dashbord ke halaman sesuai **chain** 
+- selesaikan **problem** jika node bermasalah
+- done
 
 di bagian `your_node.example.com` ganti dengan hostname dari file **node.config**
 
